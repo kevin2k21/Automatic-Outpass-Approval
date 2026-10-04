@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automatic-outpass-request"
+version = "0.1.0"
+description = "Preview and submit outpass requests through a configurable college portal adapter."
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.48,<2",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+outpass = "outpass.cli:main"
+outpass-daily = "outpass.daily:main"
+outpass-install-macos = "outpass.macos:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

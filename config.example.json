@@ -1,0 +1,26 @@
+{
+  "portal": {
+    "login_url": "https://college.example.edu/login",
+    "request_url": "https://college.example.edu/student/outpass/new"
+  },
+  "login": {
+    "username_selector": "input[name='username']",
+    "password_selector": "input[name='password']",
+    "submit_selector": "button[type='submit']",
+    "success_selector": "nav .student-profile"
+  },
+  "request": {
+    "fields": {
+      "request_type": "select[name='requestType']",
+      "holiday_subtype": "select[name='holidaySubtype']",
+      "departure_date": "input[name='departureDate']",
+      "departure_time": "input[name='departureTime']",
+      "return_date": "input[name='returnDate']",
+      "return_time": "input[name='returnTime']",
+      "place": "input[name='place']",
+      "purpose": "textarea[name='purpose']"
+    },
+    "submit_selector": "button[type='submit']",
+    "success_selector": ".alert-success"
+  }
+}

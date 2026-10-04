@@ -1,0 +1,19 @@
+{
+  "timezone": "UTC",
+  "schedule_time": "11:00",
+  "latest_attempt_time": "16:00",
+  "check_interval_seconds": 300,
+  "network_timeout_seconds": 10,
+  "portal_config": "config.json",
+  "auth_state": "auth-state.json",
+  "attempt_directory": "artifacts/daily-attempts",
+  "headless": true,
+  "request": {
+    "request_type": "Evening Out Pass",
+    "holiday_subtype": "",
+    "departure_time": "16:00",
+    "return_time": "21:25",
+    "place": "City center",
+    "purpose": "Personal errand"
+  }
+}

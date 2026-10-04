@@ -1,0 +1,10 @@
+{
+  "request_type": "Working Day Pass",
+  "holiday_subtype": "",
+  "departure_date": "2026-10-05",
+  "departure_time": "09:00",
+  "return_date": "2026-10-05",
+  "return_time": "18:00",
+  "place": "City center",
+  "purpose": "Personal errand"
+}

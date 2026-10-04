@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+auth-state.json
+artifacts/
+
+# Local portal, schedule, and request data. Commit only the sanitized examples.
+config.json
+daily-config.json
+request.json
